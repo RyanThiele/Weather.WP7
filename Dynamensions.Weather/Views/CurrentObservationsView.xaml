@@ -15,7 +15,6 @@
     <UserControl.Resources>
         <converters:NullOrEmptyToBooleanConverter x:Key="NullOrEmptyToBooleanConverter" />
     </UserControl.Resources>
-
     <StackPanel x:Name="LayoutRoot" Background="{Binding ElementName=CurrentObservations, Path=Background}">
         <Grid>
             <Grid.ColumnDefinitions>
